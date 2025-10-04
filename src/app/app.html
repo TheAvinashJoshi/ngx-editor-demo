@@ -1,0 +1,13 @@
+<form [formGroup]="blogForm" (ngSubmit)="onSubmit()">
+<ngx-editor-menu [editor]="editor" [toolbar]="customToolbar"></ngx-editor-menu>
+<ngx-editor [editor]="editor" formControlName="blogText" placeholder="Write your blog..."></ngx-editor>
+
+  <button type="submit">Submit</button>
+</form>
+
+<hr />
+
+<h3>Submitted Blog Preview:</h3>
+<div [innerHTML]="submittedHtml"></div>
+
+
