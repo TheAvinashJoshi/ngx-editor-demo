@@ -7,7 +7,7 @@ Node: 22.19.0
 Package Manager: npm 10.9.3
 OS: win32 x64
 
-# demo
+# Demo
 <img width="941" height="536" alt="image" src="https://github.com/user-attachments/assets/e6fe0998-434b-4933-961c-2d5621c486b1" />
 
 # Disclaimer
